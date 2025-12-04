@@ -1,0 +1,16 @@
+/* Make header background transparent-ish */
+header {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    backdrop-filter: blur(4px)  !important;
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    position: sticky !important;
+    top: 0 !important;
+}
+
+.md-tabs{
+    background-color: rgba(0, 0, 0, 0.107) !important;
+    backdrop-filter: blur(10px)  !important;
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    position: sticky !important;
+    top: auto !important;
+}
