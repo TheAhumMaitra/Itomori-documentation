@@ -13,6 +13,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       primary: black
+      accent: black
       scheme: default
       toggle:
         icon: material/brightness-7
@@ -21,6 +22,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       primary: black
+      accent: black
       scheme: slate
       toggle:
         icon: material/brightness-4
@@ -41,6 +43,8 @@ nav:
       - View All Saved Notes: get_started/view_all_notes.md
       - View Itomori version: get_started/view_current_version.md
       - Congratulations!: get_started/congratulations.md
+
+      - Itomori's cool CLI: get_started/cool_cli.md
 
 extra_css:
   - stylesheets/extra.css
